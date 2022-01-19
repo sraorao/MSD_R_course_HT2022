@@ -55,12 +55,13 @@ migmorph_subset = migmorph[2:3, 1:3]
 migmorph[c(1, 3), ]
 migmorph[2:3, ]
 migmorph[, 2]
-migmorph$name
-migmorph$id
+migmorph$gene_symbol
+migmorph$reagent_id
+
 # Q: Subset migmorph for only the 2nd and 3rd rows
 # hint: fill in the blanks as needed: migmorph[ , ]
-migmorph[c(2,3), ]
-migmorph[2:3, ]
+migmorph[ , ]
+migmorph[ , ]
 
 
 # Q: Examine the ToothGrowth dataset that is preloaded in your R session

@@ -33,6 +33,8 @@ TRUE & TRUE     # AND
 TRUE & FALSE
 TRUE | TRUE     # OR
 TRUE | FALSE
+!TRUE # Negation
+!FALSE # Negation
 
 x = 5
 x > 4 & x < 6
