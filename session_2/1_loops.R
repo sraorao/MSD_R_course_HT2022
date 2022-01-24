@@ -20,15 +20,6 @@ x > y
 z <- "A"
 x> z
 
-##Logical operators
-x <- c(TRUE, 4, 7, FALSE)
-y <- c(FALSE, TRUE, FALSE, TRUE)
-! x
-x & y
-x && y
-x | y
-x || y
-
 ###CONDITIONALS####
 ##IF conditional
 x <- 4
