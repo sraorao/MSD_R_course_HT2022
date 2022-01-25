@@ -13,7 +13,7 @@ dim(migration_data)
 head(migration_data)
 
 # Load morphology data
-# We are only interested in columns 8, 9, 10, 19
+# We are only interested in columns 8, 10, 19
 # We are also NOT interested in rows 1, 2
 morphology_data = read.csv("Session2/data/AID_1159617_datatable_all.csv")
 morphology_data = morphology_data[c(-1, -2), c(8, 10, 19)]
@@ -40,7 +40,7 @@ median(migmorph$migration)
 
 # T test
 # Filter the data based on the cluster column and perform a t test between clusters 1 and 5
-# Do the above using split()
+# Do the above using split() (needs List?)
 
 
 # Calculate Pearson's correlation coefficient
@@ -58,5 +58,7 @@ hist(migmorph$migration, breaks = 10)
 plot(density(migmorph$migration))
 
 plot(migmorph$migration, migmorph$elongatedness)
+# Additional arguments: colours, headings, x and y limits, labels
+# bar plot
 
 
