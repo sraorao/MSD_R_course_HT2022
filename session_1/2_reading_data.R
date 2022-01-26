@@ -18,7 +18,7 @@
 # to simplify our analysis
 
 # Load migration data
-# We are only interested in columns 8, 9, 10, 13
+# We are only interested in columns 8, 10, 13
 # We are also NOT interested in rows 1, 2
 migration_data = read.csv("session_1/data/AID_1159618_datatable_all.csv")
 migration_data = migration_data[c(-1, -2), c(8, 10, 13)]
@@ -27,7 +27,7 @@ dim(migration_data)
 head(migration_data)
 
 # Load morphology data
-# We are only interested in columns 8, 9, 10, 19
+# We are only interested in columns 8, 10, 19
 # We are also NOT interested in rows 1, 2
 morphology_data = read.csv("session_1/data/AID_1159617_datatable_all.csv")
 morphology_data = morphology_data[c(-1, -2), c(8, 10, 19)]
