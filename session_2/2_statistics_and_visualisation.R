@@ -69,7 +69,12 @@ hist(migmorph$migration, breaks = 10)
 plot(density(migmorph$migration))
 
 plot(migmorph$migration, migmorph$elongatedness)
-# Additional arguments: colours, headings, x and y limits, labels
-# bar plot
+
+# add colours
+plot(migmorph$migration, migmorph$elongatedness, col=migmorph$cluster)
+
+# Add a main title
+
+# Change x and y labels
 
 
