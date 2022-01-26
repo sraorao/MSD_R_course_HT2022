@@ -28,6 +28,7 @@ if(x > 0) {
 }
 x <- -4
 
+gene_names = c("TP53", "PTEN", "RB1", "MYC")
 goi_name = "PTEN"
 if(goi_name %in% gene_names) {
   print("The gene of interest is in the gene set")
@@ -90,7 +91,7 @@ while(index < 27) {
 ##FOR loop iterates over a vector or a list
 # perform an action over every item
 
-for (year in c(2011,2012,2013,2014,2015,2016)) 
+for (year in c(2011,2012,2013,2014,2015,2016)) #how to write that shorter?
 {	
   print(paste("The year is", year))
 }	
