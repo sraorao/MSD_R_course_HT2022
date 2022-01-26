@@ -37,6 +37,8 @@ mean(migmorph$migration)
 median(migmorph$migration)
 
 # T test
+t.test(c(1:5), c(10:15))
+
 # Filter the data based on the cluster column and perform a t test 
 # between clusters 1 and 6
 migmorph_cl1 = migmorph[migmorph$cluster == "1", ]
@@ -72,9 +74,11 @@ plot(migmorph$migration, migmorph$elongatedness)
 # add colours
 plot(migmorph$migration, migmorph$elongatedness, col=migmorph$cluster)
 
-# Q: Add a main title
+# Q: Add a main title (hint: look up help!)
 
-# Q: Change x and y labels
+# Q: Change x and y labels (hint: look up help!)
+
+
 
 # barplot
 barplot(migmorph$migration)
